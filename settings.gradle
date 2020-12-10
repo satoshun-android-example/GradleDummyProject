@@ -1,1 +1,8 @@
 include ':app'
+
+if (properties["dummylib"]) {
+  include "lib"
+  project(':lib').projectDir = file('libdummy')
+} else {
+  include ':lib'
+}

@@ -14,5 +14,7 @@ class MainFragment : Fragment(R.layout.main_frag) {
     binding.sample.setOnClickListener {
       TODO()
     }
+
+    Test.greet()
   }
 }
