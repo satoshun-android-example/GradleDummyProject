@@ -2,7 +2,7 @@ include ':app'
 
 if (properties["dummylib"]) {
   include "lib"
-  project(':lib').projectDir = file('libdummy')
+  project(':lib').projectDir = file('lib/libdummy')
 } else {
   include ':lib'
 }

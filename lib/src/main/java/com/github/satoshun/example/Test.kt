@@ -1,7 +1,8 @@
 package com.github.satoshun.example
 
 object Test {
-  fun greet() {
+  fun greet(): String {
     println("testtest lib")
+    return "lib module"
   }
 }

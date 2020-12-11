@@ -15,6 +15,6 @@ class MainFragment : Fragment(R.layout.main_frag) {
       TODO()
     }
 
-    Test.greet()
+    binding.sample.text = Test.greet()
   }
 }
